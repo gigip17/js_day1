@@ -4,5 +4,6 @@ function myRemoveTail (tab){
       }
       return tab.slice(0, -1);
 }
+module.exports = myRemoveTail;
 
 console.log(myRemoveTail([0, 1])); // [0]
