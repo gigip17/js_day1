@@ -1,5 +1,5 @@
-function main(arg1, arg2) { 
-    return arg2; 
-  } 
+function inputArgs(arg, arg2) {
+  return arg2;
+}
 
-  module.exports = main;
+module.exports = inputArgs;
