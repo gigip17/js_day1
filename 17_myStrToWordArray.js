@@ -1,4 +1,7 @@
 function myStrToWordArray(tableaux){
+    if (tab.length === 0) {
+        return [];
+      }
     return tableaux.split(' ')
 }
 
