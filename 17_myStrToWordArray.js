@@ -1,8 +1,6 @@
 function myStrToWordArray(tableaux){
-    if (tab.length === 0) {
-        return [];
-      }
-    return tableaux.split(' ')
+    if (tableaux === "") return [];
+    return tableaux.split(' ');
 }
 
 module.exports = myStrToWordArray;

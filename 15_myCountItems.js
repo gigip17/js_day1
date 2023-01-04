@@ -1,5 +1,6 @@
 function myCountItems(array) {
-    return array.length;
+    array.length;
+    return array;
   }
   module.exports = myCountItems;
   console.log(myCountItems([1, 2, 3]));

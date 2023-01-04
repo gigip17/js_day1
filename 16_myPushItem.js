@@ -1,6 +1,6 @@
 function myPushItem(array,newItem) {
-
-    return array.push(newItem)
+        array.push(newItem)
+    return array;
 }
 module.exports = myPushItem;
 

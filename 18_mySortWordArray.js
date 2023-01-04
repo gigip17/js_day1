@@ -1,5 +1,5 @@
 function mySortWordArray(tab){
-    if (tab.length === 0) {
+    if (tab === "") {
         return [];
       }
     return tab.split(' ').sort();
