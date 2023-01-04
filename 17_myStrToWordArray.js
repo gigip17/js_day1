@@ -1,5 +1,5 @@
 function myStrToWordArray(tableaux){
-    return tableaux.slice(5)
+    return tableaux.split(' ')
 }
 
 module.exports = myStrToWordArray;
