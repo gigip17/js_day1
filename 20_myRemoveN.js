@@ -8,5 +8,7 @@ function myRemoveN(arr,n){
         return arr;
       }
 }
+module.exports = myRemoveN;
+
 console.log(myRemoveN(["hello", "world"], 0)); // ["world"]
 console.log(myRemoveN(["hello", "world"], 1)); // ["hello"]
