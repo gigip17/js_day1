@@ -3,8 +3,9 @@ function myRemoveN(arr,n){
         // L'opération est impossible, on renvoie le tableau d'origine
         return arr;
       } else {
-        // On crée un nouveau tableau qui contient tous les éléments de arr sauf l'élément à enlever
-        return arr.filter((_, i) => i !== n);
+        // On utilise splice pour retirer l'élément du tableau
+        arr.splice(n, 1);
+        return arr;
       }
 }
 console.log(myRemoveN(["hello", "world"], 0)); // ["world"]
