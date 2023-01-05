@@ -1,5 +1,6 @@
 function main(){
     let name = "Robert"
+    return main
 }
-return main
+
 module.exports = main;
