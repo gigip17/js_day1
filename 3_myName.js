@@ -1,6 +1,6 @@
 function main(){
     let name = "Robert"
-    return main
+    return name
 }
 
 module.exports = main;
