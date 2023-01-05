@@ -1,5 +1,5 @@
 function myUserDescription(utilisateur){
-    return `je m'appelle ${utilisateur.surname} ${utilisateur.name} ${utilisateur.age} ` 
+    return `je m'appelle ${utilisateur.surname} ${utilisateur.name} j'ai ${utilisateur.age} ans ` 
         
 
 }
