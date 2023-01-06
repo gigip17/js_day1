@@ -10,7 +10,6 @@ class User{
 }
 class Admin extends User{
     constructor(surname, name, age) {
-        super(surname, name, age);
         this.role = "administrateur";
     }
 }
