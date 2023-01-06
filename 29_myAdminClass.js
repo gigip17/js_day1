@@ -16,6 +16,8 @@ class Admin extends User{
     }
 }
 let me = new Admin("Guilian", "Ganster", 22);
+module.exports = Admin; 
+
 console.log(me.presentation()); //"Je m'apelle Guilian Ganster, j'ai 22 ans"
 console.log(me.role); //"administrateur" 
 
